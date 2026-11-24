@@ -51,3 +51,4 @@ class DashboardTests(unittest.TestCase):
         self.assertIsNone(self.sync(mode='BLINK',source='SERIAL',ack=new['id'],outcome='superseded').json['command'])
 
 if __name__=='__main__': unittest.main()
+       
